@@ -28,7 +28,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home(props: any, state: any) {
   return (
-  <div className="sm:flex-1 sm:ml-0 md:ml-64 md:p-8 overflow-auto min-h-screen">
+  <div id="home" className="sm:flex-1 sm:ml-0 md:ml-64 md:p-8 overflow-auto min-h-screen">
     <SideNav name="Raphael Ndemo"/>
     <div className="home bg-gray-600 text-white py-60 justify-center items-center flex flex-col ">
         <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl leading-tight md:py-6">
@@ -65,8 +65,8 @@ export default function Home(props: any, state: any) {
       <img src={github} alt="github logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300"  loading="lazy"/>
     </div>
 
-    <h2 className="contact text-2xl md:text-3xl font-bold text-gray-800 mb-4 p-4 border-b border-gray-600 ">What I do</h2>
-    <div className="px-8">
+    <h2 id="about" className="contact text-2xl md:text-3xl font-bold text-gray-800 mb-4 p-4 border-b border-gray-600 ">What I do</h2>
+    <div  className="px-8">
       {/* Design Card */}
       <div className="bg-white p-8 mb-4 rounded-lg shadow-2xl hover:shadow-2xl transition duration-300 ease-in-out transform hover:scale-105">
           <div className="flex items-center mb-4">
@@ -104,8 +104,8 @@ export default function Home(props: any, state: any) {
     <div>
       <Testimonial />
     </div> 
-    <h2 className="contact text-3xl font-bold text-gray-800 mb-4 p-4 border-b border-gray-600 ">Contact</h2>
-    <div>            
+    <h2 className="contact text-2xl font-bold text-gray-800 mb-4 p-4 border-b border-gray-600 ">Contact</h2>
+    <div id="contact">            
       <Card />
     </div>
     <BackToTopButton />

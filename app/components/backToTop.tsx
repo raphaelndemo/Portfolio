@@ -13,7 +13,7 @@ export default function Footer() {
       {/* Back to Top Button */}
       <button
         onClick={scrollToTop}
-        className="bg-no-repeat bg-center bg-cover w-16 h-16 rounded-full border-none cursor-pointer transition-all duration-300 ease-in-out"
+        className="bg-no-repeat bg-center bg-cover w-10 h-10 md:w-16 md:h-16 rounded-full border-none cursor-pointer transition-all duration-300 ease-in-out"
         style={{
           backgroundImage: `url('${rocket12}')`,
           backgroundSize: "cover",

@@ -16,6 +16,9 @@ const SideNav = (props: SideNavProps) => {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
 
   return (
     <div>
@@ -44,9 +47,9 @@ const SideNav = (props: SideNavProps) => {
         </div>
         <div>
         <ul className='uppercase p-4'>
-                <li className='p-4 border-b border-gray-600'><Link to ="#home">Home</Link></li>
-                <li className='p-4 border-b border-gray-600'><Link to="#about">About</Link></li>
-                <li className='p-4 '><Link to="#contact">Contact</Link></li>
+                <li className='p-4 border-b border-gray-600'><Link to ="#home" onClick={closeMenu}>Home</Link></li>
+                <li className='p-4 border-b border-gray-600'><Link to="#about" onClick={closeMenu}>About</Link></li>
+                <li className='p-4 '><Link to="#contact" onClick={closeMenu}>Contact</Link></li>
                 
         </ul>
         </div>            

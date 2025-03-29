@@ -53,16 +53,16 @@ export default function Home(props: any, state: any) {
     </div>
     <h2 className="contact text-2xl md:text-3xl font-bold text-gray-800 mb-4 p-4 border-b border-gray-600 ">Some Technologies I've Worked With</h2>
     <div className="flex gap-6 justify-center items-center p-10 flex-wrap">
-      <img src={html} alt="html logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300" loading="lazy" />
-      <img src={css} alt="css logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300"  loading="lazy"/>
-      <img src={reactRouterIcon} alt="react router logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 object-contain" loading="lazy" />
-      <img src={bootstrap} alt="bootstrap logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300" loading="lazy" />
-      <img src={mongodb} alt="mongodb logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300" loading="lazy" />
-      <img src={js} alt="javascript logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300" loading="lazy" />
-      <img src={java} alt="java logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300" loading="lazy" />
-      <img src={python} alt="python logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300" loading="lazy" />
-      <img src={linux} alt="linux logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300" loading="lazy" />
-      <img src={github} alt="github logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300"  loading="lazy"/>
+      <img src={html} alt="html logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105" loading="lazy" />
+      <img src={css} alt="css logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105"  loading="lazy"/>
+      <img src={reactRouterIcon} alt="react router logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 object-contain ease-in-out hover:scale-105" loading="lazy" />
+      <img src={bootstrap} alt="bootstrap logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105" loading="lazy" />
+      <img src={mongodb} alt="mongodb logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105" loading="lazy" />
+      <img src={js} alt="javascript logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105" loading="lazy" />
+      <img src={java} alt="java logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105" loading="lazy" />
+      <img src={python} alt="python logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105" loading="lazy" />
+      <img src={linux} alt="linux logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105" loading="lazy" />
+      <img src={github} alt="github logo" className="w-16 h-16 md:grayscale hover:grayscale-0 transition duration-300 ease-in-out hover:scale-105"  loading="lazy"/>
     </div>
 
     <h2 id="about" className="contact text-2xl md:text-3xl font-bold text-gray-800 mb-4 p-4 border-b border-gray-600 ">What I do</h2>
